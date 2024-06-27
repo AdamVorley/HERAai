@@ -1,7 +1,10 @@
-from flask import Flask
+from flask import Flask, request, redirect, render_template, url_for, flash 
+
 
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def home():
+        return render_template(
+        "upload.html"
+    )
