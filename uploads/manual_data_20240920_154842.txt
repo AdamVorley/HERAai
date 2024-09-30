@@ -1,0 +1,3 @@
+HERA AI notes
+
+#model = pickle.load(open('model.pkl', 'rb')) #TODO add model when received
